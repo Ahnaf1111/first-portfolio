@@ -8,12 +8,16 @@ body{
 .btn-primary{
     border-radius: 5px;
     background: #FD6E0A;
+    padding:18px 35px 19px 36px;
+    border: 0px;
 }
 /* style for nav */
 
 
 nav{
     display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .nav-icon{
     color: #181818;
@@ -22,6 +26,7 @@ nav{
 }
 nav > ul{
     display: flex;
+    align-items: center;
 }
 nav li{
     list-style: none;
